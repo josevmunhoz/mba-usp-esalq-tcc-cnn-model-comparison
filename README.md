@@ -1,2 +1,8 @@
-# mba-usp-esalq-tcc-cnn-model-comparison
-MBA DSA Final Project
+### mba-usp-esalq-tcc-cnn-model-comparison
+
+Deep Learning for detecting tuberculosis in lung x-ray.
+
+Abstract
+
+Tuberculosis is an infectious, contagious bacterial disease, transmissible through the inhalation of aerosols, which affects a large proportion of the population in its non-symptomatic form. X-ray images can be used to identify the disease even when it is asymptomatic. The study presents the results of three deep learning architectures called Neural Networks and Convolutional Neural Networks, or CNNs, which use chest X-ray images to identify the disease in patients. The knowledge transfer approach was used to take already optimized and pre-trained architectures and re-train them for the specific dataset. Four metrics were chosen to evaluate the performance of the architectures: accuracy, recall, AUC ROC and precision, with accuracy and precision being the main metrics for evaluating the models for use in X-ray images and tuberculosis identification. The network with the best performance was the "AlexNet" network, which is a simpler network, with an accuracy of 85% and precision of 90%, so for the other networks it would be interesting to have a more extensive data base to re-evaluate the results of the networks, as the other two architectures work better when applied to larger volumes of data than the following case study.
+Keywords: Tuberculosis; CNN; RNN; X-ray; Detection; Tool.
